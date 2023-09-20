@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sec6Fikir = () => {
     return (
-        <div>
+        <div className={'s6'}>
 
         </div>
     );

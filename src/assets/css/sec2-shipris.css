@@ -1,0 +1,158 @@
+.s2 {
+    margin-top: 100px !important;
+}
+
+.s2-title {
+    width: 40%;
+}
+
+.s2-text-content {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s2-text-content-l {
+    width: 5px;
+    height: 100%;
+    background: #2BDEB3;
+}
+
+.s2-text-content-r {
+    width: 90%;
+}
+
+.s2-text-content-r p {
+    color: #8C8B92;
+}
+
+.s2-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.s2-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.s2-item {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 300px;
+}
+
+.s2-item:nth-child(even) {
+    flex-basis: 450px;
+}
+
+.s2-item-left {
+    width: 12%;
+}
+
+.s2-item-right {
+    width: 88%;
+}
+
+.s2-item:nth-child(even) .s2-item-left-img {
+    width: 50%;
+}
+
+.s2-item-left-img {
+    background: #21AF83;
+    /*filter: drop-shadow(15px 15px 15px #A2E4D1);*/
+    box-shadow: 0px 0px 0px 5px #A2E4D1;
+    border-radius: 10px;
+    width: 36px;
+    padding: 5px;
+}
+
+.s2-item-left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.s2-item-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.s2-box-mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: #676677;
+}
+
+.s2-mobile-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2-mobile-row .s2-mobile-item {
+    display: flex;
+    /*align-items: flex-start;*/
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s2-mobile-item:nth-child(even) {
+    width: 50%;
+}
+
+.s2-mobile-item:nth-child(odd) {
+    width: 50%;
+    margin-right: 5px;
+}
+.s2-mobile-item:nth-child(1){
+    width: 70%;
+}
+.s2-mobile-item:last-child{
+    width: 53% !important;
+}
+ .s2-mobile-item-left .s2-mobile-item-left-img{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 30px;
+     height: 30px;
+     padding: 5px;
+     background: #21AF83;
+     /*filter: drop-shadow(15px 15px 15px #A2E4D1);*/
+     box-shadow: 0px 0px 0px 5px #A2E4D1;
+     border-radius: 10px;
+ }
+.s2-mobile-item-left{
+    height: 30%;
+    width: 100%;
+}
+.s2-mobile-item-right{
+    height: 70%;
+}
+@media screen and (max-width: 700px) {
+    .s2-title {
+        width: 100%;
+    }
+
+    .s2-box {
+        display: none;
+    }
+
+    .s2-box-mobile {
+        display: flex
+    }
+
+}

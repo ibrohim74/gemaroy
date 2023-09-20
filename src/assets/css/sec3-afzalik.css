@@ -1,0 +1,123 @@
+.s3{
+    margin-top: 100px !important;
+    position: relative;
+}
+.s3-title{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.s3-title h1{
+    width: 40%;
+    text-align: center;
+}
+.s3-title span{
+    background: #FB8645;
+    color: white;
+}
+.s3-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #21AF83;
+    border-radius: 10px;
+    height: 500px;
+}
+.s3-left{    position: relative;
+
+    width: 40%;
+    height: 100%;
+}
+.s3-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.s3-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+}
+.s3-item{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #80D4BA;
+    background: #26BC8E;
+    padding: 0 20px;
+
+}
+.s3-box img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.s3 a{display: flex;
+    width: 216px;
+    color: white;
+    padding: 14px 20px;
+    justify-content: center;
+position: absolute;
+    right: 1%;
+    margin-top: 15px;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(24, 22, 43, 0.70);
+}
+@media screen and (max-width: 700px){
+    .s3-left{
+        display: none;
+    }
+    .s3-right{
+        width: 100%;
+    }
+    .s3-box{
+        padding: 20px 20px;
+        width: 88%;
+        height: auto;
+    }
+    .s3-row{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .s3-row:nth-child(1){
+        /*margin-top: 30px;*/
+    }
+    .s3-item{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .s3-title{
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    .s3-title h1{ margin: 0 !important;
+        width: 100%;
+        font-size: 24px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .s3{
+        margin-top: 50px !important;
+        display: flex;justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .s3 a{
+        width: 90%;
+position: static;
+        padding: 18px 0;
+        margin: 15px 0 15px 0;
+    }
+}
