@@ -4,7 +4,7 @@ import '../assets/css/sec4-batafsil.css'
 const Sec4Batafsil = () => {
     return (
         <div className={'s4 container'} id={'batafsil'}>
-            <div className="s4-title">
+            <div className="s4-title wow animate__animated animate__fadeInUp">
                 <h1><span>Gemoroy</span> shprislarining batafsil tarkibi</h1>
                 <p>Malham tarkibiga kiritilgan komponentlar sinergik qutqaruvi, ya'ni bir-birining geografiyasini
                     kuchaytiradi va tashki va ichki morroyni davolashda preparatning yuqori samaradorligini
@@ -12,7 +12,7 @@ const Sec4Batafsil = () => {
             </div>
             <div className="s4-box">
                 <div className="s4-row">
-                    <div className="s4-item">
+                    <div className="s4-item wow animate__animated animate__fadeInUp">
                         <div className="s4-cycle">
                             <div className="cycle-dot"></div>
                         </div>
@@ -22,7 +22,7 @@ const Sec4Batafsil = () => {
                                 etishga yordamberadi, venoz qonning oqimini yaxshilaydi</p>
                         </div>
                     </div>
-                    <div className="s4-item">
+                    <div className="s4-item wow animate__animated animate__fadeInUp">
                         <div className="s4-cycle">
                             <div className="cycle-dot"></div>
                         </div>
@@ -32,7 +32,7 @@ const Sec4Batafsil = () => {
                                 va spazmlarni ishlab chiqaradi</p>
                         </div>
                     </div>
-                    <div className="s4-item">
+                    <div className="s4-item wow animate__animated animate__fadeInUp">
                         <div className="s4-cycle">
                             <div className="cycle-dot"></div>
                         </div>
@@ -43,7 +43,7 @@ const Sec4Batafsil = () => {
                     </div>
                 </div>
                 <div className="s4-row">
-                    <div className="s4-item">
+                    <div className="s4-item wow animate__animated animate__fadeInUp">
                         <div className="s4-cycle">
                             <div className="cycle-dot"></div>
                         </div>
@@ -53,7 +53,7 @@ const Sec4Batafsil = () => {
                                 bakteriyalarning kirib kelishiga to’sqinlik qiluvchi ximoya plyonka xosil qiladi</p>
                         </div>
                     </div>
-                    <div className="s4-item">
+                    <div className="s4-item wow animate__animated animate__fadeInUp">
                         <div className="s4-cycle">
                             <div className="cycle-dot"></div>
                         </div>
@@ -63,7 +63,7 @@ const Sec4Batafsil = () => {
                                 rivojlanishiga to’sqinlik qiladi</p>
                         </div>
                     </div>
-                    <div className="s4-item">
+                    <div className="s4-item wow animate__animated animate__fadeInUp">
                         <div className="s4-cycle">
                             <div className="cycle-dot"></div>
                         </div>

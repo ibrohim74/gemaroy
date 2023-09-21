@@ -16,16 +16,16 @@ const Header = () => {
                         </ul>
                     </nav>
                     <div className="header-content-box">
-                        <div className="header-text">
+                        <div className="header-text wow animate__animated animate__fadeInUp">
                             <h1><span style={{color:'#FB8645'}}>Gemoroy</span> shprislari Xittoy tibbiyoti</h1>
                             <p>Samaradorligi bilan hatto shifokorlarni ham xayratda qoldirgan yangi vosita  </p>
                         </div>
                         <div className="header-element">
-                            <div className="h-element-left">
+                            <div className="h-element-left wow animate__animated animate__fadeInUp">
                                 <h1>100%</h1>
                                 <p>Hollarda yordam beradi tegishli klinik tadqiqotlar bilan tasdiqlangan</p>
                             </div>
-                            <div className="h-element-right">
+                            <div className="h-element-right wow animate__animated animate__fadeInUp">
                                 <h1>50%</h1>
                                 <p>Chegirma bilan sotib olishga ulguring
                                     vaqt chegaralangan</p>
@@ -35,7 +35,7 @@ const Header = () => {
                         <img src={require('../assets/img/header/header-line.png')} className={'header-line'} alt=""/>
                     </div>
                 </div>
-                <div className="header-right">
+                <div className="header-right wow animate__animated animate__fadeInUp">
                     <img src={require('../assets/img/header/header-img.png')} alt=""/>
 
                 </div>
@@ -54,20 +54,20 @@ const Header = () => {
 
                     <div className="header-content-box">
 
-                        <div className="header-text">
+                        <div className="header-text wow animate__animated animate__fadeInUp">
                             <h1><span style={{color:'#FB8645'}}>Gemoroy</span> shprislari Xittoy tibbiyoti</h1>
                             <p>Samaradorligi bilan hatto shifokorlarni ham xayratda qoldirgan yangi vosita  </p>
                         </div>
 
-                        <div className="header-img">
+                        <div className="header-img wow animate__animated animate__fadeInUp">
                             <img src={require('../assets/img/header/header-img-mobile.png')} alt=""/>
                         </div>
                         <div className="header-element">
-                            <div className="h-element-left">
+                            <div className="h-element-left wow animate__animated animate__fadeInUp">
                                 <h1>100%</h1>
                                 <p>Hollarda yordam beradi tegishli klinik tadqiqotlar bilan tasdiqlangan</p>
                             </div>
-                            <div className="h-element-right">
+                            <div className="h-element-right wow animate__animated animate__fadeInUp">
                                 <h1>50%</h1>
                                 <p>Chegirma bilan sotib olishga ulguring
                                     vaqt chegaralangan</p>
